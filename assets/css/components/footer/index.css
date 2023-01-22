@@ -1,0 +1,7 @@
+@media (min-width: 0){
+  /*footer*/
+  section.footer{
+    margin: 32px 0;
+    text-align: center;
+  }
+}

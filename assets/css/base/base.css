@@ -1,0 +1,27 @@
+/* Base css*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+@media (min-width: 0){
+  body{
+      background-color: var(--cor-de-fundo) ;
+      box-sizing: border-box;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ACACAC;
+      margin: 16px;
+
+  }
+}
+@media (min-width: 768px){
+  body{
+      margin: 16px 32px 32px 32px;
+  }
+}
+@media (min-width: 1200px){
+  body{
+      margin: 35px 150px 32px 150px;
+  }
+}

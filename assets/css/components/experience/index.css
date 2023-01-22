@@ -1,0 +1,96 @@
+@media (min-width: 0){
+  section.experience{
+    margin: 0 16px;
+  }
+  .experience__section__title{
+      color: var(--color-title-blue);
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      margin: 2rem 0 0.2rem 0;
+  }
+  .experience__section__subtitle{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .experiencie__box{
+      display: flex;
+      flex-direction: column;
+  }
+  .experience__img{
+      margin-bottom: 1rem;
+  }
+  .experience__title{
+      color: white;
+      font-size: 16px;
+      margin-bottom: 8px;
+  }
+  .experience__text{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 8px;
+  }
+  .experience__description{
+      margin-bottom: 64px;
+  }
+  .experiencia__botao--repo, .experiencia__botao--demo{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      padding: 8px 16px;
+      border-radius: 30%;
+      cursor: pointer;
+      border: 2px solid var(--color-border);
+      background-color: var(--bg-page);
+      color: var(--color-fonts);
+  }
+}
+@media (min-width: 1200px){
+  section.experience{
+    margin: 0 16px;
+  }
+  .experience__section__title{
+      font-size: 32px;
+      line-height: 38px;
+      margin: 2rem 0;
+  }
+  .experiencie__box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .experience__img{
+      margin-bottom: 50px;
+      margin-right: 26px;
+  }
+  .left{
+      order: 1;
+      margin-left: 16px;
+  }
+  .experience__title{
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 8px;
+  }
+  .experience__text{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 8px;
+  }
+  .experience__description{
+      margin-bottom: 64px;
+  }
+  .experiencia__botao--repo, .experiencia__botao--demo{
+      font-size: 16px;
+      line-height: 19px;
+      padding: 12px 20px;
+      border-radius: 5px;
+  }
+  .experiencia__botao--repo{
+      margin-right: 10px;
+  }
+}

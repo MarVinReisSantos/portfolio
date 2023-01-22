@@ -1,0 +1,49 @@
+/*Sessão Menu*/
+@media (min-width: 0){
+
+  section.menu{
+    color: var(--color-title-blue);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .menu__header{
+    display: flex;
+  }
+  .menu__img{
+    margin: 30px 9px 0 1px;
+    height: 20px;
+  }
+  .menu__title{
+    margin-top: 28px;
+    width: 102px;
+    height: 19px;
+    
+  }
+  .menu__list{
+    display: none;
+  }
+  .menu__list__item__contato{
+    margin: 26px 0 0 0;
+  }
+}
+
+@media (min-width: 1200px){
+  .menu__list{
+    display: flex;
+    margin: 26px 0 0 0;
+  }
+  .menu__list__item{
+      margin-left: 32px;
+  }.menu__list__item:first-child{
+      margin-left: 0;
+  }.menu__list__item a{
+    transition: all 0.3s ease;
+  }
+  .menu__list__item a:hover{
+    color: var(--color-title-blue);
+  }
+  .menu__list__item__contato{
+      display: none;
+  }
+}
